@@ -1,0 +1,120 @@
+body
+{
+background: linear-gradient(to bottom,rgb(175, 39, 175),rgb(39, 5, 41)) 
+
+
+}
+
+a
+{
+  color: chartreuse;
+  text-decoration: chartreuse;
+  padding-left: 80px;
+  text-align: center;
+  font-family: Impact;
+  font-size: 20pt;
+}
+
+a:hover
+{
+  color: white;
+}
+
+marquee
+{
+ font-family: franklin gothic medium;
+ color: white;
+ font-size: 130%;
+
+}
+
+h1
+{
+  color: rgb(255, 149, 220);
+  font-size: 190;
+  font-family: impact;
+  text-align: center;
+}
+
+h2
+{
+  color: white;
+  font-family: franklin gothic medium;
+  font-size: 30;
+  text-align: center;
+}
+
+h3
+{
+  color: lightpink;
+  font-size: 90;
+  font-family: impact;
+  text-align: center;
+}
+
+.menu
+{
+  width: 98%;
+  height: 80px;
+  border-style: solid;
+  border-color: rgb(255, 203, 255);
+  
+}
+
+/* Slideshow container */
+.slideshow-container 
+    {
+      max-width: 100px;
+      position: relative;
+      margin: auto;
+      align-items: center;
+      text-align: center;
+    }
+    
+    /* Caption text */
+.text 
+    {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 45%;
+      text-align: center;
+    }
+    
+
+    
+    /* The dots/bullets/indicators */
+.dot 
+    {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #ff00bb;
+      border-radius: 50%;
+      display: inline-block;
+      transition:0.6s ease;
+    }
+    
+    
+    /* Fading animation */
+.fade 
+    {
+      animation-name: fade;
+      animation-duration: 1.5s;
+      
+    }
+    
+    @keyframes fade 
+    {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) 
+    {
+.text {font-size: 11px}
+    }
+

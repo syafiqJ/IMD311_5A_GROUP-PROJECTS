@@ -1,0 +1,136 @@
+<html>  
+    <head>
+        <title>products</title>
+ 
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+  
+    </head>
+    </div>
+    <style>
+        body
+            {
+                background: linear-gradient(to top,rgb(216, 84, 216),black) 
+            }
+    
+         </style>
+
+    <marquee>DoBak's Products</marquee>
+
+    <div class="logo">
+        <div align="center"
+        <p><img src="images/logo-removebg-preview.png" height="400px" width="400px"</P> 
+    </div>
+
+    <div class="menu"
+
+    <div class="index"
+    <div style="padding-top: 40;"
+    <p><a href="index.html">HOME</a>
+<a href="company overview.html">COMPANY OVERVIEW</a>
+<a href="team members.html">TEAM MEMBERS</a>
+<a href="vision & mission.html">VISION & MISSION</a>
+<a href="products.html">PRODUCTS</a>
+<a href="target customer.html">TARGET CUSTOMER</a>
+
+    </div>
+<div align="center" 
+<p><h3>OUR PRODUCTS</h3>
+
+</div>
+<div align="center" 
+<p><h3>Donuts</h3>
+
+</div>
+<div align="center" style="padding-bottom: 30;"
+
+<div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/product1.jpg" style="width:70%"   >
+    <div class="text"></div>
+  </div>
+
+  <div align="center"
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/p4.jpg" style="width:70%"  >
+    <div class="text"></div>
+  </div>
+
+  <div align="center"
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/p3.jpg" style="width:70%"  >
+    <div class="text"></div>
+  </div>
+
+  <div align="center"
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="images/p1.jpg" style="width:70%"  >
+    <div class="text"></div>
+  </div>
+
+  <div align= "center" style="padding-top: 25px;">
+
+    <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
+    <span class="dot"></span>
+
+ 
+    </div>
+</div>
+<br>
+     <script>
+      let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() 
+    {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) 
+        {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) 
+        {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+       </script>
+
+<p><h3>Cakes</h3>
+    <div align="center"
+    <div style="padding-top: 50;"
+    <p><img src="images/product3.jpg" height="950" width="60%"</p>
+</div>
+
+<p><h3>Cookies</h3>
+    <div align="center"
+    <div style="padding-top: 50;"
+    <p><img src="images/product2.jpg" height="550" width="60%"</p>
+</div>
+
+<p><h3>Bread</h3>
+    <div align="center"
+    <div style="padding-top: 50;"
+    <p><img src="images/product5.jpg" height="950" width="60%"</p>
+</div>
+
+
+
+
+</p> 
+    </div>
